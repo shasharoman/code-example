@@ -16,6 +16,7 @@ const lineChart = require('./lineChart.js');
 
 // demo是页面上已存在canvas的id
 let chart = lineChart.init('demo', {
+    tipsCtx: '',
     width: 320,
     height: 200,
     margin: 10,
